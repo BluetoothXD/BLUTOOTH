@@ -1,0 +1,61 @@
+html {
+  height: 100%;
+  width: 100%;
+  font-family: 'Josefin Sans', sans-serif;
+}
+body{
+  background-image: url('vokaloid.webp');
+  background-size: cover;
+  background-attachment: fixed;
+}
+h1{
+  background-color: #fffdc2;
+  color: #000000;
+ 
+  font-size: 40px;
+  margin-top: auto;
+  border: 5px dashed #bda11c;
+  border-radius: 15px;
+  height: auto 5%;
+  text-align: center;
+  align-items: center;
+  padding: 20px;
+}
+p {
+  background-color: #fffdc2;
+  color: #0a0a0a;
+  font-size: 20px;
+  padding: 20px;
+  margin: 20px auto;
+  border: 5px dashed #bb9d12;
+  border-radius: 15px;
+  width: 50%;
+  text-align: center;
+}
+ .voc {
+   background-color: #fffdc2;
+    color: #0a0a0a;
+    font-size: 20px;
+    padding: 20px;
+    margin: 20px auto;
+    border: 5px dashed #bb9d12;
+    border-radius: 15px;
+    width: 50%;
+    text-align: center;
+}
+.voc:hover {
+  cursor: pointer;
+  background-color: #bb9d12;
+  color: #ffffff;
+  padding: 20px;
+  margin: 20px auto;
+  border: 5px dashed #fffdc2;
+  border-radius: 15px;
+  width: 60%;
+  text-align: center;
+  transform: all 0.4s;
+}
+.video{
+  margin-top: 50px;
+  text-align: center;
+}
